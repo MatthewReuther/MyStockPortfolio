@@ -4,16 +4,19 @@
     <link rel="stylesheet" href="bower_components/foundation/css/foundation.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Track Your Portfolio</title>
-  </head>
-  <body>
-   <div class="wrapper">
-    <h1>My Portfolio</h1>
-    <div class="input_wrapper">
-      <input type="text" placeholder="Company Ticker..." id="stockName" class="stock_input">
-      <input type="text" placeholder=" Enter Quantity to Buy..." id="stockQty" class="stock_input">
+
+    <div class="main-user-input-wrapper">
+      <h1>My Portfolio</h1>
+        <div class="user_inputs">
+          <input type="text" placeholder="Company Ticker..." id="tickerName">
+          <input type="text" placeholder=" Enter Quantity to Buy..." id="stockQty">
+        </div>
       <input type="submit" value="Buy" id="buyStocks" class="button">
     </div>
-  </div>
+
+  </head>
+
+  <body>
     <table class="table">
       <tr>
         <th>Name</th>
@@ -28,4 +31,5 @@
       </tbody>
     </table>
   </body>
+
 </html>

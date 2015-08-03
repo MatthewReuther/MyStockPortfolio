@@ -1,6 +1,12 @@
+.main-user-input-wrapper {
+  text-align: center;
+  margin-bottom: 15px;
+}
 
-#buyStocks {
-margin: auto;
+#tickerName, #stockQty {
+  width: 50%;
+  text-align: center;
+  margin: 15px auto;
 }
 
 .table {
